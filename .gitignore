@@ -1,0 +1,7 @@
+private_images
+.idea
+.ipynb_checkpoints
+client_account_conf.json
+venv
+*.pyc
+temp.jpg
