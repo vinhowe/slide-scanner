@@ -47,7 +47,7 @@ for c in cnts:
 
 warped = four_point_transform(orig, screenCnt.reshape(4, 2))
 
-warped = cv2.resize(warped, (1920, 1080))
+# warped = cv2.resize(warped, (1920, 1080))
 
 im_pil = Image.fromarray(cv2.cvtColor(warped, cv2.COLOR_BGR2RGB))
 post_enhancer = ImageEnhance.Sharpness(im_pil)
