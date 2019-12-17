@@ -1,6 +1,12 @@
 # slide-scanner
 Scans slides in class, realigns, and reads text with Google Vision OCR.
 
+<img src='./demo_images/input.png' width="300"></img><br>
+<img src='./demo_images/aligned.png' width="300"></img><br>
+<img src='./demo_images/ocr.png' width="300"></img>
+
+Based heavily on [this article](https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/).
+
 Just barely a proof-of-concept.
 
 ## To do (descending by priority)
